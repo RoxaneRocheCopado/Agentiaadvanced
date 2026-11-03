@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Digital_Maturity_Index__c</fullName>
+        <description>Measures the account&apos;s digital transformation progress and technological sophistication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field helps sales and marketing teams understand an account&apos;s technological capabilities and readiness for advanced digital solutions, enabling more targeted product recommendations and implementation strategies.</inlineHelpText>
+        <label>Digital Maturity Index</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Contract_Expiry_Date__c</fullName>
         <label>Contract Expiry Date</label>
         <required>false</required>
